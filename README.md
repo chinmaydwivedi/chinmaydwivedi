@@ -134,15 +134,6 @@ chinmay@github:~$ whoami
 
 ---
 
-## 🌐 3D Contribution Graph
-
-<!-- 3D Contribution Calendar (github-profile-3d-contrib by yoshi389111) -->
-<!-- To enable this, add a GitHub Action to your repo as described below -->
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
-</div>
-
 
 
 ## ⚔️ Competitive Programming
@@ -211,40 +202,7 @@ chinmay@github:~$ whoami
 
 ---
 
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-</div>
 
-> **ℹ️ To activate the snake animation**, create `.github/workflows/snake.yml`:
->
-> ```yaml
-> name: generate animation
-> on:
->   schedule:
->     - cron: "0 */12 * * *"
->   workflow_dispatch:
-> jobs:
->   generate:
->     permissions:
->       contents: write
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk/svg-only@v3
->         with:
->           github_user_name: ${{ github.repository_owner }}
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3.1.0
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
-
----
 
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
