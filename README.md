@@ -143,34 +143,7 @@ chinmay@github:~$ whoami
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
 </div>
 
-> **ℹ️ To activate the 3D graph above**, create `.github/workflows/profile-3d.yml` in your profile repo:
->
-> ```yaml
-> name: GitHub-Profile-3D-Contrib
-> on:
->   schedule:
->     - cron: "0 18 * * *"
->   workflow_dispatch:
-> jobs:
->   build:
->     runs-on: ubuntu-latest
->     name: generate-github-profile-3d-contrib
->     steps:
->       - uses: actions/checkout@v3
->       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
->           USERNAME: ${{ github.repository_owner }}
->       - name: Commit & Push
->         run: |
->           git config user.email action@github.com
->           git config user.name GitHub Action
->           git add -A .
->           git commit -m "generated" || exit 0
->           git push
-> ```
 
----
 
 ## ⚔️ Competitive Programming
 
