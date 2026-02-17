@@ -137,8 +137,14 @@ chinmay@github:~$ whoami
 ## 🌐 3D Contribution Graph
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+  </picture>
 </div>
+
+> 💡 *Run the GitHub Action manually from the Actions tab to generate this graph*
 
 ---
 
@@ -210,8 +216,14 @@ chinmay@github:~$ whoami
 
 <!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+  </picture>
 </div>
+
+> 💡 *Run the GitHub Action manually from the Actions tab to generate this animation*
 
 ---
 
