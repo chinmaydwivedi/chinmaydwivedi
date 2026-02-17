@@ -134,7 +134,13 @@ chinmay@github:~$ whoami
 
 ---
 
+## 🌐 3D Contribution Graph
 
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+</div>
+
+---
 
 ## ⚔️ Competitive Programming
 
@@ -202,7 +208,12 @@ chinmay@github:~$ whoami
 
 ---
 
+<!-- Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/chinmaydwivedi/chinmaydwivedi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</div>
 
+---
 
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
