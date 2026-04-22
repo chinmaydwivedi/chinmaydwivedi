@@ -12,18 +12,18 @@
 ```
 chinmay@github:~$ whoami
 ┌──────────────────────────────────────────────────────────────────┐
-│  chinmay@dwivedi                                                  │
-│                                                                   │
+│  chinmay@dwivedi                                                 │
+│                                                                  │
 │  OS:          CS Undergrad @ PES University, Bangalore           │
 │  Uptime:      21 years, grinding since 2023                      │
 │  Role:        GDG Mentor | Prime Intellect OSS Contributor       │
 │  Languages:   C/C++, Python, JavaScript, SQL, HTML/CSS           │
 │  Frameworks:  React, Node.js, FastAPI                            │
 │  Tools:       Git, Docker, VS Code, Visual Studio                │
-│  Interests:   Systems, Cryptography, CV, RL, Competitive Prog.  │
-│                                                                   │
+│  Interests:   Systems, Cryptography, CV, RL, Competitive Prog.   │ 
+│                                                                  │
 │  Currently:   Building RL environments for VirtualBox + SGLang   │
-│               Mentoring @ Google Developer Group                  │
+│               Mentoring @ Google Developer Group                 │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
