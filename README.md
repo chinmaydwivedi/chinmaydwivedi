@@ -1,92 +1,51 @@
-<div align="center">
+# Hi, I'm Chinmay Dwivedi
 
-```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│   ██████╗██╗  ██╗██╗███╗   ██╗███╗   ███╗ █████╗ ██╗   ██╗              │
-│  ██╔════╝██║  ██║██║████╗  ██║████╗ ████║██╔══██╗╚██╗ ██╔╝              │
-│  ██║     ███████║██║██╔██╗ ██║██╔████╔██║███████║ ╚████╔╝               │
-│  ██║     ██╔══██║██║██║╚██╗██║██║╚██╔╝██║██╔══██║  ╚██╔╝                │
-│  ╚██████╗██║  ██║██║██║ ╚████║██║ ╚═╝ ██║██║  ██║   ██║                 │
-│   ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝                 │
-│                                                                          │
-│              D H A R   D W I V E D I                                     │
-│                                                                          │
-├──────────────────────────────────────────────────────────────────────────┤
-│  chinmay@portfolio:~$ whoami                                             │
-│                                                                          │
-│  systems-minded software engineer                                        │
-│  building developer tools, RL evaluation environments,                  │
-│  and distributed systems that stay correct under pressure.              │
-│                                                                          │
-│  location  : Bengaluru, India                                            │
-│  education : B.Tech CSE · PES University · 2023—2027                    │
-│  status    : available for interesting work                              │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+I'm a computer science undergraduate at PES University and a systems-minded software engineer based in Bengaluru. I build developer tools, reinforcement-learning evaluation environments, and reliable distributed systems.
 
-[portfolio](https://chinmaydwivedii.vercel.app/) · [github](https://github.com/chinmaydwivedi) · [linkedin](https://www.linkedin.com/in/chinmaydwivedii/) · [email](mailto:chinmaydhardwivedi@gmail.com)
+My recent work includes open-source contributions to [Prime Intellect](https://github.com/PrimeIntellect-ai), [Warp](https://github.com/warpdotdev/warp), and [Monkeytype](https://github.com/monkeytypegame/monkeytype). I also mentor developers through the Google Developer Group on campus.
 
-</div>
+[Portfolio](https://chinmaydwivedii.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/chinmaydwivedii/) · [Email](mailto:chinmaydhardwivedi@gmail.com) · [Résumé](https://chinmaydwivedii.vercel.app/chinmay-dwivedi-resume.pdf)
 
-```text
-┌─ ./signal ────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│  500+  problems solved       50+  students mentored                      │
-│  630   RL evaluation prompts  14  public repositories                    │
-│                                                                          │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+## What I'm working on
 
-### `$ ls ./work`
+- Building and evaluating agent environments for real-world software tasks
+- Contributing performance and reliability improvements to open-source projects
+- Exploring distributed systems, infrastructure, and developer experience
+- Solving competitive-programming problems — 500+ completed so far
 
-```text
-01  community-environments/   VirtualBox codebase-search RL environment
-    └─ 630 prompts · loader · evaluator · model rollouts
+## Selected work
 
-02  warp/                     cancellable repository metadata walks
-    └─ abortable traversal · stale guards · coalesced loads
+### VirtualBox codebase-search environment
 
-03  monkeytype/               faster leaderboard counts + atomic PB writes
-    └─ MongoDB counts · atomic updates · safer logging
+Built an RL evaluation environment for [Prime Intellect's community environments](https://github.com/PrimeIntellect-ai/community-environments/pull/356), including 630 search prompts, an environment loader, evaluator, model rollouts, and documentation.
 
-04  cpboard/                  competitive-programming command center
-05  KubeDataGuard/            verified Kubernetes operator runtime
-06  snippex/                  portable developer-template archive
-```
+### Cancellable repository metadata walks
 
-[Prime Intellect #356](https://github.com/PrimeIntellect-ai/community-environments/pull/356) · [Warp #12328](https://github.com/warpdotdev/warp/pull/12328) · [Monkeytype #7837](https://github.com/monkeytypegame/monkeytype/pull/7837)
+Contributed [abortable asynchronous traversal to Warp](https://github.com/warpdotdev/warp/pull/12328), with stale-generation guards, duplicate-load coalescing, and a fully passing package test suite.
 
-### `$ cat skills.json`
+### Faster and safer leaderboard updates
 
-```text
-{
-  "languages" : ["C++", "Python", "TypeScript", "Go", "SQL"],
-  "systems"   : ["Kubernetes", "Docker", "Linux", "Kafka"],
-  "data"      : ["PostgreSQL", "OpenSearch", "Redis", "ClickHouse"],
-  "web"       : ["Next.js", "React", "FastAPI", "Prisma"]
-}
-```
+Improved [Monkeytype's leaderboard and personal-best update paths](https://github.com/monkeytypegame/monkeytype/pull/7837) by replacing full leaderboard fetches with database counts, making writes atomic, and removing sensitive logs.
 
-### `$ cat principles.txt`
+### Personal projects
 
-```text
-[01] make failure states observable
-[02] prefer evidence over assumptions
-[03] ship the smallest correct system
-[04] leave the codebase easier to change
-```
+- [cpboard](https://github.com/chinmaydwivedi/cpboard) — a competitive-programming dashboard
+- [KubeDataGuard](https://github.com/chinmaydwivedi/KubeDataGuard) — a Kubernetes operator focused on data protection
+- [snippex](https://github.com/chinmaydwivedi/snippex) — portable developer-template archives
+- [skipthat](https://github.com/chinmaydwivedi/skipthat) — a privacy-first YouTube filtering extension
 
-<div align="center">
+## Technical toolkit
 
-```text
-╭──────────────────────────────────────────────────────────────────────────╮
-│  Have a systems problem, an open-source idea, or ambitious work?         │
-│                                                                          │
-│                     $ mail --new / channel open                          │
-╰──────────────────────────────────────────────────────────────────────────╯
-```
+- **Languages:** C++, Python, TypeScript, Go, SQL
+- **Systems:** Kubernetes, Docker, Linux, Kafka
+- **Data:** PostgreSQL, OpenSearch, Redis, ClickHouse
+- **Web:** Next.js, React, FastAPI, Prisma
 
-<sub>CHINMAY DHAR DWIVEDI · DESIGNED AS A LIVING SYSTEM</sub>
+## A little more about me
 
-</div>
+- B.Tech in Computer Science at PES University, graduating in 2027
+- Mentor to 50+ students through the Google Developer Group
+- Top-10 finisher at Terrathon 3.0
+- Interested in systems engineering, agent evaluation, cryptography, and developer tools
+
+If you're working on an ambitious systems problem or an open-source project, feel free to [get in touch](mailto:chinmaydhardwivedi@gmail.com).
